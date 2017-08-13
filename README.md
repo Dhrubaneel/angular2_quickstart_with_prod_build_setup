@@ -1,7 +1,7 @@
-# angular2_with_node
+# Angular2 Quickstart Production Build
 This is almost basic codebase for angular 2 with minimal components and functionality. Configuration for production build is also done here.
 
-Initial steps
+Initial Steps
 ==============
 After cloning the project do the following.
 1) Delete .git folder and .gitignore file

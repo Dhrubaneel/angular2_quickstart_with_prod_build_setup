@@ -2,7 +2,7 @@ var fs = require('fs');
 var resources = [
   'node_modules/core-js/client/shim.min.js',
   'node_modules/zone.js/dist/zone.min.js',
-  'src/styles.css',
+  'src/favicon.ico'
 ];
 resources.map(function(f) {
   var path = f.split('/');
