@@ -23,7 +23,7 @@ npm run build:aot
 
 Run the Application without server
 ==================================
-1) Change {::nomarkdown}<base href="/">{:/} to <base href=""> in index-aot.html
+1) Change <blockquote><base href="/"></blockquote> to <base href=""> in index-aot.html
 2) Change RouterModule.forRoot(routes) to RouterModule.forRoot(routes,{useHash:true}) in all modules where router is defined
 
 Due to security issue modern browsers do not support PathLocationStrategy for applications running from local file system. Server is required for that.
